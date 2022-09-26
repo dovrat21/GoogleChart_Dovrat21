@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleChart_Dovrat21", "GoogleChart_Dovrat21\GoogleChart_Dovrat21.csproj", "{238C1281-A9F0-4D8F-BC33-A9D2DB739116}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{238C1281-A9F0-4D8F-BC33-A9D2DB739116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{238C1281-A9F0-4D8F-BC33-A9D2DB739116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{238C1281-A9F0-4D8F-BC33-A9D2DB739116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{238C1281-A9F0-4D8F-BC33-A9D2DB739116}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {234693E9-9401-4126-97FF-44A0F967064D}
+	EndGlobalSection
+EndGlobal
