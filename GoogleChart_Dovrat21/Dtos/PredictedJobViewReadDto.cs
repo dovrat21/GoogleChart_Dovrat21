@@ -4,7 +4,7 @@
     {
         public int Id { get; set; }
         public int? PredictedJobViewCounter { set; get; }
-
-        public string? Date { set; get; }
+        public DateTime Date { set; get; }
+        
     }
 }

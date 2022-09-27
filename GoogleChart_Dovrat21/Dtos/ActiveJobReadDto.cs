@@ -6,8 +6,7 @@ namespace GoogleChart_Dovrat21.Dtos
     {
         public int Id { get; set; }
         public int? ActiveJobCounter { set; get; }
-
-        public string? Date { set; get; }
+        public DateTime Date { set; get; }
 
     }
 }

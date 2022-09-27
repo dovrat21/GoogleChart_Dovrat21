@@ -15,8 +15,6 @@ namespace GoogleChart_Dovrat21.Models
         public int? ActiveJobCounter { set; get; }
 
         [Required]
-        public string? Date { set; get; }
-
-        //public DateTime Day { set; get; }
+        public DateTime Date { set; get; }
     }
 }

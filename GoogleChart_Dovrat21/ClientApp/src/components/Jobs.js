@@ -14,6 +14,8 @@ export const Jobs = () => {
 
         focusTarget: 'category',
         title: "Cumulative jobs views vs. prediction",
+        hAxis: { slantedText: true, slantedTextAngle: 45, format: "dd-MMM" },
+        
         vAxes: {
             0: { title: "job views" },
             1: { title: "jobs" }

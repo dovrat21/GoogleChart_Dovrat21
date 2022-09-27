@@ -47,7 +47,7 @@ namespace GoogleChart_Dovrat21.Controllers
         public ActionResult<IEnumerable<JobViewReadDto>> GetJobsViews(string id)
         {
             _logger.LogInformation("--> Getting JobsViews ...");
-            var AllJobsViews = _jobsViewsRepo.GetAllJobsViews().OrderBy(r=>r.Id).ToList();
+            var AllJobsViews = _jobsViewsRepo.GetAllJobsViews().OrderBy(r=>r.Date).ToList();
             if (AllJobsViews != null)
             {
                 return Ok(_mapper.Map<IEnumerable<JobViewReadDto>>(AllJobsViews));
@@ -65,7 +65,7 @@ namespace GoogleChart_Dovrat21.Controllers
         public ActionResult<IEnumerable<PredictedJobViewReadDto>> PredictedJobView(string id, string name)
         {
             _logger.LogInformation("--> Getting PredictedJobView ...");
-            var AllPredictedJobView = _predictedJobViewRepo.GetAllPredictedJobView().OrderBy(r => r.Id).ToList(); ;
+            var AllPredictedJobView = _predictedJobViewRepo.GetAllPredictedJobView().OrderBy(r => r.Date).ToList(); ;
             if (PredictedJobView != null)
             {
                 return Ok(_mapper.Map<IEnumerable<PredictedJobViewReadDto>>(AllPredictedJobView));

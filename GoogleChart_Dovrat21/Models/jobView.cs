@@ -12,8 +12,7 @@ namespace GoogleChart_Dovrat21.Models
 
         [Required]
         public int? JobsViewsCounter { set; get; }
+        public DateTime Date { set; get; }
 
-        [Required]
-        public string? Date { set; get; }
     }
 }
